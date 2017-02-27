@@ -1,0 +1,12 @@
+com\fests\domain\BaseEntity.class
+com\fests\ws\rest\BandEndpoint.class
+com\fests\domain\Band.class
+com\fests\repository\FestivalRepository.class
+com\fests\domain\Band$Type.class
+com\fests\ws\rest\FestivalEndpoint.class
+com\fests\service\FestivalService.class
+com\fests\domain\Festival.class
+com\fests\repository\BandRepository.class
+com\fests\UsernameAuditor.class
+com\fests\Application.class
+com\fests\service\BandService.class

@@ -1,0 +1,16 @@
+<button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Update festival</button>
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
+	aria-labelledby="myLargeModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body">
+				<input type="text" placeholder="name" ng-model="nameUpdate" />
+				 <input type="text" placeholder="location" ng-model="locationUpdate" />
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-default" data-dismiss="modal" ng-click="userUpdate(festival.id,namepdate,locationUpdate)">Create Festival</button>
+			</div>
+		</div>
+	</div>
+</div>

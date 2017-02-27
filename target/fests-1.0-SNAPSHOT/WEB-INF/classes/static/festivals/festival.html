@@ -1,0 +1,31 @@
+<div class="container">
+	<table class="table">
+		<thead>
+			<tr>
+				<td>name</td>
+				<td>location</td>
+				<td>bands</td>
+				<td>deleteFestival</td>
+				<td>updateFestival</td>
+			</tr>
+		<thead>
+		<tbody ng-repeat="festival in festivalsObj">
+			<tr>
+				<td>{{festival.name}}</td>
+				<td>{{festival.location}}</td>
+				<td><ul ng-repeat="band in festivalsObj.bands">
+						<li>{{band.type}}</li>
+					</ul>
+				</td>
+				<td><button class="btn btn-danger" ng-click="deleteUser(festival.id)">Delete festival</button></td>
+				<td><button ng-click="passId(festival.id)" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Update festival</button></td>
+			</tr>
+		</tbody>
+	</table>
+	<div class="row">
+		<create-festival></create-festival>
+		<button class="btn btn-default" ng-click="getUsers()">Get
+			festivals</button>
+	</div>
+</div>
+

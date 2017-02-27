@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="fests:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="fests-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="fests:war exploded" />
+    </root>
+  </artifact>
+</component>
